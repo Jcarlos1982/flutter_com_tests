@@ -1,0 +1,21 @@
+{
+  // Use o IntelliSense para saber mais sobre os atributos possíveis.
+  // Focalizar para exibir as descrições dos atributos existentes.
+  // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Tests (unit and widgets)",
+      "type": "dart",
+      "request": "launch",
+      "program": "test/"
+    },
+    {
+      "name": "Integrations Tests",
+      "type": "dart",
+      "request": "launch",
+      "program": "integration_test/app_test.dart"
+    //   "program": "integration_test/" //Rodar todos os testes de integração, independente de estarem em algum roteiro de app_test.dart
+    }
+  ]
+}
